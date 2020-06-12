@@ -1,13 +1,10 @@
-n = input("Введите целое положительное число ")
-n = int(n)
-max = 0
-
-while n >= 0:
-    n = n // 10
-    if n % 10 > max:
-        max = n % 10
-    if n > 9:
-        continue
-    else:
-        print("Максимальное цифра в числе ", max)
-        break
+a =input('Введите число: ')
+a= int(a)
+m = a % 10
+a = a // 10
+while a > 0:
+    if a % 10 > m:
+        m = a % 10
+        a = a // 10
+    print("Максимальное цифра в числе: " + str(m))
+    break
