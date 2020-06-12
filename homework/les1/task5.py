@@ -18,4 +18,3 @@ else:
     loss = cost - revenue
     print('Вы отработали в убыток, Ваш убыток составляет: ' + str(loss))
 
-
