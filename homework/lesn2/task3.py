@@ -19,11 +19,11 @@ my_dict = {'wi':'winter', 'sp':'spring', 'su':'summer', 'au':'autumn'}
 if user == 1 or user == 2 or user == 12:
     print(my_dict['wi'])
 elif user == 3 or user == 4 or user == 5:
-    print(my_list['sp'])
+    print(my_dict['sp'])
 elif user == 6 or user == 7 or user == 8:
-    print(my_list['su'])
+    print(my_dict['su'])
 elif user == 9 or user == 10 or user == 11:
-    print(my_list['au'])
+    print(my_dict['au'])
 else:
     print('Такого номера месяца нет!')
 
