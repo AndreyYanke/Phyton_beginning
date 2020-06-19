@@ -1,5 +1,5 @@
 def result():
-	res = 0
+    res = 0
 	while True:
 	   user_number = input('Введите цифры через пробел или # для выхода:  ').split( )
 	   for i in user_number:
