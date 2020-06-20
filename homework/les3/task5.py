@@ -13,4 +13,3 @@ def result():
 	   		print('Введите число или #: ')
 	   print(f' Ваш результат: {res}')
 
-print(result())
